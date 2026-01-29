@@ -1,0 +1,82 @@
+/* ===============================
+   UP! COMPANY — CHATWOOT SKIN
+================================ */
+
+/* BASE */
+body {
+  font-family: Inter, system-ui, -apple-system, sans-serif !important;
+}
+
+/* SIDEBAR */
+.cw-sidebar,
+.left-pane {
+  background: #0A1F2E !important;
+}
+
+.cw-sidebar *,
+.left-pane * {
+  color: #F0F0E8 !important;
+}
+
+/* ITEM ATIVO */
+.conversation.selected,
+.active-conversation {
+  background: rgba(255,255,255,0.08) !important;
+  border-left: 3px solid #4EA1FF !important;
+}
+
+/* HEADER */
+.cw-topbar,
+.top-bar {
+  background: #0E2F3D !important;
+  border-bottom: 1px solid #1A3A4A !important;
+}
+
+/* LISTA DE CONVERSAS */
+.conversation-card,
+.conversation-item {
+  border-radius: 14px !important;
+  margin: 4px 8px !important;
+}
+
+/* CHAT AREA */
+.chat-container,
+.right-pane {
+  background: #F5F6F8 !important;
+}
+
+/* BOLHAS */
+.message--incoming {
+  background: #E9ECEF !important;
+  border-radius: 14px !important;
+}
+
+.message--outgoing {
+  background: #0E2F3D !important;
+  color: #fff !important;
+  border-radius: 14px !important;
+}
+
+/* BOTÕES */
+button,
+.cw-button,
+.btn {
+  border-radius: 12px !important;
+  background: #0E2F3D !important;
+  color: #fff !important;
+}
+
+/* INPUT */
+textarea,
+input {
+  border-radius: 10px !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A3A4A;
+  border-radius: 10px;
+}
